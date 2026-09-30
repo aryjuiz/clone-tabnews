@@ -1,13 +1,5 @@
-function home() {
-  return <h1>Te amo meu amor! xD</h1>;
+function status(request, response) {
+  response.status(200).json({ chave: "são acima da média" });
 }
 
-function teste() {
-  console.log("teste");
-}
-
-function teste2() {
-  console.log("identação errada");
-}
-
-export default home;
+export default status;
